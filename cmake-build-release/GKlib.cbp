@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GKlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GKlib">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/libGKlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 GKlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GKlib/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/libGKlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 GKlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strings">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 strings"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strings/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 strings/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m2mnbrs">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/m2mnbrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 m2mnbrs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m2mnbrs/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/m2mnbrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 m2mnbrs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gksort">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gksort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gksort/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gksort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grKx">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/grKx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 grKx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grKx/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/grKx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 grKx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fis">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/fis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 fis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fis/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/fis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 fis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkrw">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkrw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkrw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkrw/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkrw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkrw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csrcnv">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/csrcnv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 csrcnv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csrcnv/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/csrcnv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 csrcnv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkgraph">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkgraph"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkgraph/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkgraph/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splatt2svd">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/splatt2svd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 splatt2svd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splatt2svd/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/splatt2svd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 splatt2svd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmpnbrs">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/cmpnbrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 cmpnbrs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmpnbrs/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/cmpnbrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 cmpnbrs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkuniq">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkuniq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkuniq"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gkuniq/fast">
+				<Option output="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/gkuniq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/."/>
+					<Add directory="/home/cmcox007/tmp/tmp.tFl36e477l/test"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nvshmem/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/nccl/include"/>
+					<Add directory="/opt/nvidia/hpc_sdk/Linux_x86_64/22.7/comm_libs/mpi/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 gkuniq/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cmcox007/tmp/tmp.tFl36e477l/cmake-build-release/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/b64.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/blas.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/cache.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/csr.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/error.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/evaluate.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/fkvkselect.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/fs.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/getopt.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/gk_util.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/gkregex.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/gkregex.h">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/graph.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/htable.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/io.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/itemsets.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/mcore.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/memory.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/pqueue.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/random.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/rw.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/seq.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/sort.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/string.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/cmpnbrs.c">
+			<Option target="cmpnbrs"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/csrcnv.c">
+			<Option target="csrcnv"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/fis.c">
+			<Option target="fis"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/gkgraph.c">
+			<Option target="gkgraph"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/gksort.c">
+			<Option target="gksort"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/gkuniq.c">
+			<Option target="gkuniq"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/grKx.c">
+			<Option target="grKx"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/m2mnbrs.c">
+			<Option target="m2mnbrs"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/rw.c">
+			<Option target="gkrw"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/splatt2svd.c">
+			<Option target="splatt2svd"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/strings.c">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/timers.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/tokenizer.c">
+			<Option target="GKlib"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/GKlibSystem.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cmcox007/tmp/tmp.tFl36e477l/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
